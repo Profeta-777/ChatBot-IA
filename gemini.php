@@ -4,7 +4,7 @@ header ("content-Type: application/json");
 
 $mensagem = $_POST["mensagem"] ?? "";
 
-$api_key = "AIzaSyDAJ31HkPvUf8saOkzg2NF7gcxw2dPvDbY";
+$api_key = "KEY";
 
 $url ="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" . $api_key;
 
